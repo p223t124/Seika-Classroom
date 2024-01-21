@@ -1,0 +1,127 @@
+.wed-time-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.wed-time-navlink {
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.wed-time-navlink1 {
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.wed-time-navlink2 {
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.wed-time-navlink3 {
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.wed-time-navlink4 {
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.wed-time-navlink5 {
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.wed-time-image {
+  width: 200px;
+  object-fit: cover;
+}
+@media(max-width: 479px) {
+  .wed-time-navlink {
+    top: 30px;
+    left: 0px;
+    color: transparent;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .wed-time-navlink1 {
+    top: 195px;
+    left: 140px;
+    color: transparent;
+    right: 0px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .wed-time-navlink2 {
+    top: 360px;
+    left: 0px;
+    color: transparent;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .wed-time-navlink3 {
+    top: 530px;
+    left: 140px;
+    color: transparent;
+    right: 0px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .wed-time-navlink4 {
+    top: 690px;
+    left: 0px;
+    color: transparent;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .wed-time-navlink5 {
+    top: 855px;
+    left: 140px;
+    color: transparent;
+    right: 0px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .wed-time-image {
+    width: 100%;
+    height: 1003px;
+  }
+}

@@ -1,0 +1,1063 @@
+.page46-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.page46-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: flex-start;
+}
+.page46-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.page46-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.page46-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.page46-text001 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.page46-text002 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.page46-text003 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.page46-text004 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.page46-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page46-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.page46-burger-menu {
+  display: none;
+}
+.page46-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.page46-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.page46-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.page46-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.page46-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page46-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.page46-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.page46-link {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page46-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page46-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page46-link3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page46-navlink {
+  display: contents;
+}
+.page46-image {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.page46-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.page46-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page46-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page46-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page46-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width: 767px) {
+  .page46-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .page46-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .page46-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .page46-link1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .page46-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .page46-link3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .page46-container1 {
+    height: 52px;
+    z-index: 1;
+    border-color: #787878;
+    border-width: 0px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .page46-navbar-interactive {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: var(--dl-space-space-unit);
+    position: absolute;
+    align-items: center;
+    padding-right: 16px;
+    justify-content: flex-end;
+  }
+  .page46-desktop-menu {
+    display: none;
+  }
+  .page46-burger-menu {
+    display: flex;
+  }
+  .page46-mobile-menu {
+    padding: 16px;
+  }
+  .page46-link {
+    font-family: MarugameHonmaruGothicMini;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+  .page46-text006 {
+    font-family: Arial;
+  }
+  .page46-link1 {
+    font-family: MarugameHonmaruGothicMini;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    text-decoration: none;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+  .page46-text008 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text009 {
+    font-family: Arial;
+  }
+  .page46-text010 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-link2 {
+    font-family: MarugameHonmaruGothicMini;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    text-decoration: none;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+  .page46-text011 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text012 {
+    font-family: Arial;
+  }
+  .page46-text013 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-link3 {
+    font-family: MarugameHonmaruGothicMini;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    text-decoration: none;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+  .page46-text014 {
+    font-family: MarugameHonmaruGothicMini;
+    letter-spacing: 16px;
+  }
+  .page46-text015 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text016 {
+    font-family: Arial;
+  }
+  .page46-text017 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text018 {
+    font-family: Arial;
+  }
+  .page46-text019 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-image {
+    top: -3px;
+    left: 10px;
+    right: 0px;
+    width: 65px;
+    height: 58px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+  }
+  .page46-container2 {
+    height: 52px;
+    margin-top: var(--dl-space-space-sixunits);
+    border-width: 0px;
+  }
+  .page46-text020 {
+    margin-left: 12px;
+  }
+  .page46-text021 {
+    color: var(--dl-color-gray-500);
+    font-size: 40px;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text022 {
+    font-size: 40px;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-container3 {
+    gap: 65px;
+    height: auto;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .page46-text024 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text025 {
+    letter-spacing: 1.3px;
+  }
+  .page46-text026 {
+    letter-spacing: 1.3px;
+  }
+  .page46-text029 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text032 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text035 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text038 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text041 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text044 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text047 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text050 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text053 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text056 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text059 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text062 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text065 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text068 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text071 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text074 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text077 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text080 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text083 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text087 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text088 {
+    letter-spacing: 1.3px;
+  }
+  .page46-text092 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text095 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text098 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text101 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text104 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text107 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text110 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text113 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text116 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text119 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text122 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text125 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text128 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text131 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text134 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text137 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text140 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text143 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text146 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text149 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text153 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text155 {
+    font-family: Arial;
+  }
+  .page46-text160 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text163 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text166 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text169 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text172 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text175 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text178 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-container4 {
+    gap: 65px;
+    height: auto;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .page46-text182 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text184 {
+    font-family: Arial;
+  }
+  .page46-text189 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text192 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text195 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text198 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text201 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text204 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text207 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text210 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text213 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text216 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text219 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text222 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text225 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text228 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text231 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text234 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text238 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text243 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text246 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text249 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text252 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text255 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text258 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text261 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text264 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text267 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text270 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text273 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text276 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text279 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text282 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text285 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text288 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text291 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text294 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text297 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text300 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text303 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text306 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text309 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text312 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text315 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text318 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text321 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text324 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text327 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text330 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text333 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text336 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text339 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text342 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text346 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text351 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text354 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text357 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text360 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text363 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text366 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text369 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text372 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text375 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text378 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text381 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text384 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text387 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-container5 {
+    gap: 65px;
+    height: auto;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .page46-text391 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text396 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text399 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text402 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text405 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text408 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text411 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text414 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text417 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text420 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text423 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text426 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text429 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text432 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text435 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text438 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text441 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text444 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text448 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text450 {
+    font-family: Arial;
+  }
+  .page46-text455 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text458 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text461 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text464 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text467 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text470 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text473 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text476 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text479 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text482 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text485 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text488 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text491 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text495 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text500 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text503 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text506 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text509 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text512 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text515 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text518 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text521 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text524 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text527 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text530 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text533 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text536 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text539 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text542 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text545 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text548 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text551 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text554 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text557 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-container6 {
+    gap: 65px;
+    height: auto;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-sixunits);
+    justify-content: center;
+  }
+  .page46-text561 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text566 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text569 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text572 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text575 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text578 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text581 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text584 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text587 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text590 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text593 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text596 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text599 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text602 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text605 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text608 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text611 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text614 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text617 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text620 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text623 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text626 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text629 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text632 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text635 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text639 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text641 {
+    font-family: Arial;
+  }
+  .page46-text646 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text649 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text652 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text655 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text658 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text661 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text664 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text667 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text670 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text673 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text676 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text679 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text682 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text685 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text688 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text692 {
+    width: 65px;
+    text-align: center;
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text693 {
+    font-family: Arial;
+  }
+  .page46-text698 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text701 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text704 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text707 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text710 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text713 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text716 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+  .page46-text719 {
+    font-family: MarugameHonmaruGothicMini;
+  }
+}
